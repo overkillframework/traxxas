@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Plugin.Lidar\Plugin.Lidar.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Overkill.Common">
+      <HintPath>..\..\Overkill\Overkill\bin\Release\netcoreapp3.1\Overkill.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Overkill.Core">
+      <HintPath>..\..\Overkill\Overkill\bin\Release\netcoreapp3.1\Overkill.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Overkill.PubSub">
+      <HintPath>..\..\Overkill\Overkill\bin\Release\netcoreapp3.1\Overkill.PubSub.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

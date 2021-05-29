@@ -1,0 +1,8 @@
+.vs
+obj
+bin
+*.nupkg
+*.nuspec
+PublishProfiles
+*.csproj.user
+*.bat

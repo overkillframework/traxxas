@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plugin.CollisionAvoidance", "Plugin.CollisionAvoidance\Plugin.CollisionAvoidance.csproj", "{96A23747-C739-4C02-8E47-DD2381034307}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plugin.Lidar", "Plugin.Lidar\Plugin.Lidar.csproj", "{44A55EFA-8054-41C4-BAD6-81F91FDD2404}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96A23747-C739-4C02-8E47-DD2381034307}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96A23747-C739-4C02-8E47-DD2381034307}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96A23747-C739-4C02-8E47-DD2381034307}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96A23747-C739-4C02-8E47-DD2381034307}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44A55EFA-8054-41C4-BAD6-81F91FDD2404}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44A55EFA-8054-41C4-BAD6-81F91FDD2404}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44A55EFA-8054-41C4-BAD6-81F91FDD2404}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44A55EFA-8054-41C4-BAD6-81F91FDD2404}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00B50501-D2F2-4A28-B3B7-FC09108DF238}
+	EndGlobalSection
+EndGlobal
