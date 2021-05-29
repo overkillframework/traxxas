@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Overkill.Core">
+      <HintPath>..\Overkill\Overkill.Core\bin\Release\netcoreapp3.1\Overkill.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Overkill.Proxies">
+      <HintPath>..\Overkill\Overkill.Proxies\bin\Release\netcoreapp3.1\Overkill.Proxies.dll</HintPath>
+    </Reference>
+    <Reference Include="Overkill.PubSub">
+      <HintPath>..\Overkill\Overkill.PubSub\bin\Release\netcoreapp3.1\Overkill.PubSub.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
