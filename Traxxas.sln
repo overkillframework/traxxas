@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plugin.CollisionAvoidance",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plugin.Lidar", "Plugin.Lidar\Plugin.Lidar.csproj", "{44A55EFA-8054-41C4-BAD6-81F91FDD2404}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vehicle.Traxxas", "Vehicle.Traxxas\Vehicle.Traxxas.csproj", "{298B7927-8916-4053-A3E2-D12E0EABBF72}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plugin.Follower", "Plugin.Follower\Plugin.Follower.csproj", "{3723803F-3662-463E-992B-6CFB9D18E655}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{44A55EFA-8054-41C4-BAD6-81F91FDD2404}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44A55EFA-8054-41C4-BAD6-81F91FDD2404}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44A55EFA-8054-41C4-BAD6-81F91FDD2404}.Release|Any CPU.Build.0 = Release|Any CPU
+		{298B7927-8916-4053-A3E2-D12E0EABBF72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{298B7927-8916-4053-A3E2-D12E0EABBF72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{298B7927-8916-4053-A3E2-D12E0EABBF72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{298B7927-8916-4053-A3E2-D12E0EABBF72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3723803F-3662-463E-992B-6CFB9D18E655}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3723803F-3662-463E-992B-6CFB9D18E655}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3723803F-3662-463E-992B-6CFB9D18E655}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3723803F-3662-463E-992B-6CFB9D18E655}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
